@@ -50,3 +50,14 @@ UI 라이브러리나 다른 유틸리티 라이브러리 등 추가 기술 스�
 ---
 
 2시간
+
+---
+
+### 코멘트
+
+- [TODO.md](./TODO.md) 간단히 작성후 작업 진행
+- `ModalManager` 클래스를 구현하고 `useSyncExternalStore`를 이용하여 컨트롤을 직접 구현할까 하다가 slash overlay-kit을 한번 써보자 싶어 사용
+- HTML5 dialog, form, label + input에 기반하여 기본적인 접근성 요소들이 브라우저에 의해 자동 부여
+- axe devtools 기본 테스트만 수행, color-contrast 외 a11y 문제 없음
+- overscroll 속성을 contain으로 지정하여 dialog가 열렸을 때 내부 스크롤 도중 외부 스크롤 일어나지 않게 방지
+- overflow 속성을 auto로 지정하여 스크롤 필요 시 스크롤 가능하게 지정
